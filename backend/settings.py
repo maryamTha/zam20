@@ -167,15 +167,14 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#email-host
 
 
-EMAIL_FROM = 'testmesender@gmail.com'
+EMAIL_FROM = 'ayartest979@gmail.com'
 EMAIL_BCC = '<YOUR DEFAULT_EMAIL_BCC HERE>'
 
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'testmesender@gmail.com'
-EMAIL_HOST_PASSWORD = 'Test123test'
-EMAIL_USE_TLS = True
-EMAIL_USE_SSL = False
+EMAIL_PORT = 465
+EMAIL_HOST_USER = 'ayartest979@gmail.com'
+EMAIL_HOST_PASSWORD = 'ayar@@2020'
+EMAIL_USE_TLS = False
 
-
+EMAIL_USE_SSL = True
 django_heroku.settings(locals())
